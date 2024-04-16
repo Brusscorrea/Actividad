@@ -1,0 +1,43 @@
+PSEUDOCODIGO:
+Start
+  Print "Welcome to the game"
+  Prompt "Board size : "
+  Read size
+  Split size into rows and columns
+  While true
+    Call the function play with rows and columns as arguments
+    Prompt "Do you want to play again? (y/n): "
+    Read response
+    If response is not 'y'
+      Break the loop
+    End If
+  End While
+End
+
+Function play(rows, columns)
+  Generate board with rows and columns
+  Show board
+  Wait 5 seconds
+  Hide a value from the board
+  Show board with the hidden value
+  Prompt "Guess the secret value: "
+  Read guess
+  If guess is equal to the secret value
+    Print "Correct!"
+  Else
+    Print "Incorrect, the value was:", secret value
+  End If
+End Function
+
+Function generate_board(rows, columns)
+  Create a matrix of size rows x columns with random values
+  Return matrix
+End Function
+
+Function hide_value(board)
+  Choose a row and column at random
+  Store the value in the chosen row and column
+  Replace the value in the chosen row and column with '*'
+  Return the stored value and the modified board
+End Function
+
