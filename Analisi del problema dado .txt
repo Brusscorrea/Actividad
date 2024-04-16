@@ -1,0 +1,20 @@
+ANALISIS:
+Descripción del problema: Crear un programa que genere una cuadrícula de números, signos, letras utilizando matrices. Dependiendo del tamaño de la cuadrícula, se establece un tiempo para que el usuario memorice los elementos en la cuadrícula. Cuando se acaba el tiempo, se oculta un elemento al azar y el usuario debe ingresar el elemento que cree que se ha ocultado.
+
+Entrada:
+
+Un número entero positivo mayor a uno (1). Una vez elegido el número, se creará una cuadrícula cuyo tamaño es el cuadrado de este número.
+Salida:
+
+Una cuadrícula con elementos (números, letras, signos) generados al azar. Después de un tiempo determinado, se oculta un elemento al azar y el usuario debe ingresar el elemento que cree que se ha ocultado. Si el elemento ingresado por el usuario coincide con el elemento oculto, se muestra el mensaje “¡Correcto! Has encontrado el valor oculto”. De lo contrario, se muestra “Incorrecto. El valor era (valor correcto)”.
+Proceso:
+
+Se ingresa un número entero positivo mayor a uno (1).
+Se crea una matriz que contiene elementos aleatorios (números, signos, letras), teniendo en cuenta el número ingresado anteriormente.
+Se oculta un elemento de la matriz al azar.
+El usuario ingresa el elemento que cree que se ha ocultado.
+Se muestra un mensaje indicando si el usuario acertó o no al valor oculto.
+Se muestra un mensaje preguntando si el usuario desea jugar otra vez.
+Restricciones:
+
+Al ingresar el número, tener en cuenta que no puede ser un número menor o igual a cero (0).
