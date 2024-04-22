@@ -39,5 +39,5 @@ Function hide_value(board)
   Store the value in the chosen row and column
   Replace the value in the chosen row and column with '*'
   Return the stored value and the modified board
-End Function
+Stop Function
 
